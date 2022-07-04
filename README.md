@@ -21,4 +21,4 @@ target="_blank">Webpage!</a>
 
 
 ## Screenshot:
-![image](./assets/Images/screenshot_github.jpg)
+![image](./Assets/Images/screenshot_github.jpg)
