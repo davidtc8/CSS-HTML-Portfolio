@@ -16,7 +16,9 @@ Inside the "Assets" folder you'll find:
 - [x] UX 🤔
 
 ## Web Page Link 😏
-<a href="https://davidtc8.github.io/CSS-HTML-Portfolio/"target="_blank">Webpage!</a>
+<a href="https://davidtc8.github.io/CSS-HTML-Portfolio/" 
+target="_blank">Webpage!</a>
+
 
 ## Screenshot:
 ![image](./assets/Images/screenshot_github.jpg)
