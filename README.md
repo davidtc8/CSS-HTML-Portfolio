@@ -2,7 +2,11 @@
 Portfolio in HTML &amp; CSS
 
 ## Folder Structure 🗺️:
-PENDING TO ADD
+Inside the "Assets" folder you'll find:
+- Images 
+    - Images used for the project
+- Styling
+    - style.css
 
 ## Concepts Applied 🧐:
 - [x] HTML 🦴
@@ -12,7 +16,7 @@ PENDING TO ADD
 - [x] UX 🤔
 
 ## Web Page Link 😏
-PENDING TO ADD
+<a href="https://davidtc8.github.io/CSS-HTML-Portfolio/"target="_blank">Webpage!</a>
 
 ## Screenshot:
 ![image](./assets/Images/screenshot_github.jpg)
