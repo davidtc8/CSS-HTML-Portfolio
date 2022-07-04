@@ -15,4 +15,4 @@ PENDING TO ADD
 PENDING TO ADD
 
 ## Screenshot:
-PENDING TO ADD
+![image](./assets/Images/screenshot_github.jpg)
