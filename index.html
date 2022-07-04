@@ -19,18 +19,18 @@
       <img src="./Assets/Images/Logo.png" class="logo" alt="Logo" />
       <nav>
         <ul class="nav_links">
-          <li><a href="#Home">Home</a></li>
-          <li><a href="#about_me">About Me</a></li>
-          <li><a href="#projects">Projects</a></li>
+          <li><a href="#home_section">Home</a></li>
+          <li><a href="#about_me_section">About Me</a></li>
+          <li><a href="#project_section">Projects</a></li>
         </ul>
       </nav>
     </header>
     <! -- ############ HEADER ############ -->
-    <section class="header-image">
+    <section class="header-image" id="home_section">
       <h1>Just Chilling</h1>
     </section>
     <! -- ############ ABOUT ME ############ -->
-    <section class="about_me">
+    <section class="about_me" id="about_me_section">
       <h1>Hey!</h1>
       <h3>I enjoy creating things that live on the internet. My interest is Python/JS Development.
         Back when took an MIT Course in Machine Learning, I loved and I learned its syntax by coding games - who would have 
@@ -42,32 +42,147 @@
       </h3>
     </section>
     <! -- ############ PROJECTS ############ -->
-    <section class="projects">
+    <section class="projects" id="project_section">
       <h1>Projects</h1>
-      <h3>
+      <h3 class="text">
         Here are some of the projects that I've worked with:
       </h3>
-      <div class="item">
-        <div class="left_side">
-          <div class="img">
-            <img src="./Assets/Images/data_analysis.jpg" alt="data_analysis_python">
+      <div class="container">
+        <div class="all_items">
+          <! -- #### DATA ANALYSIS PROJET #### -->
+          <div class="item">
+            <div class="left_side">
+              <div class="project_img">
+                <img src="./Assets/Images/data_analysis.jpg" alt="data_analysis_python">
+              </div>
+            </div>
+            <div class="right_side">
+              <h2 class="project_title">
+                Fuel Economy Data from USA Car Models
+              </h2>
+              <p class="project_description">
+                Using Python I made a data analysis with Pandas, Numpy and Matplotlib about 
+                fuel economy data from US car models from 2008 and 2018.
+                <div class="button">
+                  <a href="https://github.com/davidtc8/Fuel_Economy_Data_Analysis" class="proj_button" target=”_blank”>
+                    GitHub Repo
+                  </a>
+                </div>
+              </p>
+            </div>
+          </div>
+          <! -- #### COVID Project #### -->
+          <div class="item">
+            <div class="left_side">
+              <div class="project_img">
+                <img src="./Assets/Images/covid.jpg" alt="covid_project">
+              </div>
+            </div>
+            <div class="right_side">
+              <h2 class="project_title">
+                Covid Pandemic Data Analysis
+              </h2>
+              <p class="project_description">
+                Webpage that analyses the behvaior of COVID among the top 10 and 
+                the worst 10 countries. We also gathered some interesting facts 
+                such as Countries with the highest number of deceased, 
+                Best Global Responses to COVID-19, Cases per Million People, etc.
+                <div class="button">
+                  <a href="https://coronaviruspy.herokuapp.com/" class="proj_button" target=”_blank”>
+                    View Webpage
+                  </a>
+                </div>
+              </p>
+            </div>
+          </div>
+          <! -- #### Space Project #### -->
+          <div class="item">
+            <div class="left_side">
+              <div class="project_img">
+                <img src="./Assets/Images/space.jpg" alt="space_station">
+              </div>
+            </div>
+            <div class="right_side">
+              <h2 class="project_title">
+                International Space Station Tracker
+              </h2>
+              <p class="project_description">
+                Python script that tracks where is the International Space Station (ISS) 
+                in the sky. When the ISS is right above our location, the script will 
+                send an email telling us to look up at the sky!
+                <div class="button">
+                  <a href="https://coronaviruspy.herokuapp.com/" class="proj_button" target=”_blank”>
+                    GitHub Repo
+                  </a>
+                </div>
+              </p>
+            </div>
+          </div>
+          <! -- #### Workout Tracker Project #### -->
+          <div class="item">
+            <div class="left_side">
+              <div class="project_img">
+                <img src="./Assets/Images/sport.jpg" alt="workout">
+              </div>
+            </div>
+            <div class="right_side">
+              <h2 class="project_title">
+                Workout Tracker
+              </h2>
+              <p class="project_description">
+                Workout tracker that you can use to keep track of each excersice you do!
+                <div class="button">
+                  <a href="https://github.com/davidtc8/Workout_Tracker" class="proj_button" target=”_blank”>
+                    GitHub Repo
+                  </a>
+                </div>
+              </p>
+            </div>
+          </div>
+          <! -- #### RPG Game Project #### -->
+          <div class="item">
+            <div class="left_side">
+              <div class="project_img">
+                <img src="./Assets/Images/rpg_game.jpg" alt="rpg_game">
+              </div>
+            </div>
+            <div class="right_side">
+              <h2 class="project_title">
+                RPG Game
+              </h2>
+              <p class="project_description">
+                My first RPG Game in Python! Using Object Oriented Programming.
+                <div class="button">
+                  <a href="https://github.com/davidtc8/My_First_RPG_Game" class="proj_button" target=”_blank”>
+                    GitHub Repo
+                  </a>
+                </div>
+              </p>
+            </div>
+          </div>
+          <! -- #### My First Webpage Project #### -->
+          <div class="item">
+          <div class="left_side">
+            <div class="project_img">
+              <img src="./Assets/Images/webpage.jpg" alt="my_first_webpage">
+            </div>
+          </div>
+          <div class="right_side">
+            <h2 class="project_title">
+              My First Webpage
+            </h2>
+            <p class="project_description">
+              One of my first websites using bootstrap.
+              <div class="button">
+                <a href="https://davidtc8.github.io/My_portfolio/" class="proj_button" target=”_blank”>
+                  View Webpage
+                </a>
+              </div>
+            </p>
           </div>
         </div>
-        <div class="right_side">
-          <h2 class="project_title">
-            Fuel Economy Data from USA Car Models
-          </h2>
-          <p class="project_description">
-            Using Python I made a data analysis with Pandas, Numpy and Matplotlib about 
-            fuel economy data from US car models from 2008 and 2018.
-            <div class="button">
-              <a href="https://github.com/davidtc8/Fuel_Economy_Data_Analysis" class="proj_button" target=”_blank”>
-                GiHub Repo
-              </a>
-            </div>
-          </p>
-        </div>
       </div>
+    </div>
     </section>
   </body>
 </html>
