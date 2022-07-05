@@ -162,7 +162,7 @@ header {
 }
 
 .projects .item:nth-child(even) .right_side{
-    margin-left: 0;
+    margin-left: 0px;
 }
 
 /*Selecting only the even images*/
@@ -199,7 +199,7 @@ header {
     padding: 0% 10%;
 }
 
-@media screen and (max-width: 600px){ 
+@media (max-width: 600px){ 
 
     .logo {
         display: none;
@@ -262,7 +262,7 @@ header {
         margin-left: 0 auto;
         margin-top: -150px;
         margin-bottom: -600px;
-        margin-left: -320px;
+        margin-left: -420px;
         padding: 0rem 0rem;
         border-left: 2%;
     }
